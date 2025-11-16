@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS-Game </title>
+</head>
+<body>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .buttons button {
+            font-size: 20px;
+            margin: 10px;
+            padding: 10px 20px;
+        }
+        #result, #score {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        #reset{
+            font-size: 20px;
+            margin: 10px;
+            padding: 10px 20px;   
+        }
+    </style>
+    <h1>  This is a Rock paper scissors game </h1>
+    <div class="buttons">
+        <button id="button" data-move="rock">ROCK</button>
+        <button id="button" data-move="paper">PAPER</button>
+        <button id="button" data-move="scissors">SCISSORS</button>
+    </div>
+    <diV id="result">Make your move. </diV>
+    <div id="score">Player: 0 - computer: 0</div>
+    <button id="reset"> Reset Game </button>
+    <script src="code.js"></script>
+</body>
+</html>  
